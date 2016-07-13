@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gentellela Alela! | </title>
+    <!-- Bootstrap -->
+    <link href="../backOffice/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../backOffice/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../backOffice/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="../backOffice/build/css/custom.min.css" rel="stylesheet">
+</head>
+<body class="nav-md">
+<div class="container body">
+
+        <!-- left navigation -->
+
+        {% block left %}
+            {{ include('EcolePrimaireBundle::BackOffice/Parts/left.html.twig') }}
+        {% endblock left %}
+
+        <!-- /left navigation -->
+
+        <!-- top navigation -->
+
+        {% block top %}
+            {{ include('EcolePrimaireBundle::BackOffice/Parts/top.html.twig') }}
+        {% endblock top %}
+
+        <!-- /top navigation -->
+
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="row">
+                </div>
+                <div class="row">
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </div>
+        <!-- /page content -->
+
+
+        <!-- footer content -->
+
+    {% block footer %}
+        {{ include('EcolePrimaireBundle::BackOffice/Parts/footer.html.twig') }}
+    {% endblock footer %}
+
+        <!-- /footer content -->
+    </div>
+</div>
+<!-- jQuery -->
+<script src="../backOffice/vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../backOffice/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../backOffice/vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../backOffice/vendors/nprogress/nprogress.js"></script>
+<!-- Chart.js -->
+<script src="../backOffice/vendors/Chart.js/dist/Chart.min.js"></script>
+<!-- jQuery Sparklines -->
+<script src="../backOffice/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<!-- Flot -->
+<script src="../backOffice/vendors/Flot/jquery.flot.js"></script>
+<script src="../backOffice/vendors/Flot/jquery.flot.pie.js"></script>
+<script src="../backOffice/vendors/Flot/jquery.flot.time.js"></script>
+<script src="../backOffice/vendors/Flot/jquery.flot.stack.js"></script>
+<script src="../backOffice/vendors/Flot/jquery.flot.resize.js"></script>
+<!-- Flot plugins -->
+<script src="../backOffice/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+<script src="../backOffice/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+<script src="../backOffice/vendors/flot.curvedlines/curvedLines.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="../backOffice/build/js/custom.min.js"></script>
+
+</body>
+</html>

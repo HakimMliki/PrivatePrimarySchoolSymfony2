@@ -1,0 +1,7 @@
+ecole_primaire:
+    resource: "@EcolePrimaireBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

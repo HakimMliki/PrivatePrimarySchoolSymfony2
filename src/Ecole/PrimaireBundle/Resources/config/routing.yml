@@ -1,0 +1,3 @@
+ecole_primaire_backoffice_homepage:
+    path:     /
+    defaults: { _controller: EcolePrimaireBundle:BackOffice/Home:home }
